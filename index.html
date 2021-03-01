@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta name="Description" content="a custom element using redux">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <meta name="theme-color" content="#000000">
+
+  <base href="/redux-element/">
+
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link href="theme.css" rel="stylesheet">
+  <title>Redux Element</title>
+</head>
+<body>
+  <div title>
+    <h1>Redux and LitElement!</h1>
+  </div>
+  <div buttons>
+    <decrement-button>
+      decrement
+    </decrement-button>
+    <increment-button>
+      increment
+    </increment-button>
+  </div>
+  <div count>
+    <redux-element>
+      The count:
+    </redux-element>
+  </div>
+  <script type="module">
+    import { defineCustomElements } from './dist/esm/defineCustomElements.js'
+
+    defineCustomElements()
+  </script>
+</body>
+</html>

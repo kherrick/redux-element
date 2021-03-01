@@ -1,0 +1,1 @@
+import{createReducer as t}from"./utilities.js";import{DECREMENT as r,INCREMENT as e}from"./types.js";var i=t({},{[r](){return(arguments.length>0&&void 0!==arguments[0]?arguments[0]:0)-1},[e](){return(arguments.length>0&&void 0!==arguments[0]?arguments[0]:0)+1}});export default i;

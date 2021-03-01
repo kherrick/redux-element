@@ -1,0 +1,1 @@
+import{s as t}from"./configureStore-0fd459a4.js";import{decrementCount as i,incrementCount as r}from"./creators.js";import"./index-af66def3.js";import"./value.js";import"./utilities.js";import"./types.js";import"./initialState.js";var s=()=>t.dispatch(i()),e=()=>t.dispatch(r());export{s as decrementCount,e as incrementCount};
